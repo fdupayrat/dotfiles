@@ -30,3 +30,9 @@ alias rst='touch tmp/restart.txt'
 
 # commands starting with % for pasting from web
 alias %=' '
+
+# jump to
+alias cds='cd ~/Documents/Sources/'
+alias cdk='cd ~/Documents/Sources/kareea'
+alias cdj='cd ~/Documents/Sources/jhchabran'
+alias cdo='cd ~/Documents/Sources/opensource'
