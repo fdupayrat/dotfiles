@@ -18,3 +18,7 @@ end
 def hide_log
   change_log(nil)
 end
+
+def me
+  User.find_by_email("jh@chabran.fr")
+end
