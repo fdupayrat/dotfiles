@@ -7,6 +7,9 @@ alias l="ls -lAh"
 alias ll="ls -l"
 alias la='ls -A'
 
+# corkscrew to evade from bofh
+alias sshout="ssh -F /home/jh/.ssh/corkscrew_config"
+
 # git
 alias g='git'
 alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
@@ -20,6 +23,7 @@ alias tlog='tail -f log/development.log'
 alias scaffold='script/generate nifty_scaffold'
 alias migrate='rake db:migrate db:test:clone'
 alias rst='touch tmp/restart.txt'
+alias rcommit='rake spec; git commit'
 
 # commands starting with % for pasting from web
 alias %=' '
