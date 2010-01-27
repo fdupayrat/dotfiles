@@ -10,3 +10,7 @@ fi
 if [ -f ~/.localrc ]; then
   . ~/.localrc
 fi
+
+# rvm-install added:
+if [[ -s /Users/jh/.rvm/scripts/rvm ]] ; then source /Users/jh/.rvm/scripts/rvm ; fi
+

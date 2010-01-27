@@ -1,0 +1,6 @@
+#!/bin/zsh
+if [[ -s /Volumes/Users/pom/.rvm/scripts/rvm ]]
+then
+  source /Volumes/Users/pom/.rvm/scripts/rvm
+fi
+`which ruby` $*

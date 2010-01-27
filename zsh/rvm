@@ -1,0 +1,6 @@
+# rvm-install added:
+if [[ -s /Users/jh/.rvm/scripts/rvm ]] ; then source /Users/jh/.rvm/scripts/rvm ; fi
+
+# shorter way to change which version I'm using
+rvmd() {rvm use $1 --default}
+
