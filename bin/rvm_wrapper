@@ -1,4 +1,8 @@
 #!/bin/zsh
+
+# use this script as a target to your $TM_RUBY variable in textmate, 
+# snippet by : Mathias Meyer (http://www.paperplanes.de/2009/12/3/making_textmate_and_rvm_play_nice.html)
+
 if [[ -s $HOME/.rvm/scripts/rvm ]]
 then
   source $HOME/.rvm/scripts/rvm
