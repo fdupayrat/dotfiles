@@ -10,6 +10,7 @@ filetype plugin on
 
 autocmd FileType make     set noexpandtab
 autocmd FileType python   set noexpandtab
+let mapleader = ","
 
 set hlsearch
 syntax on
@@ -22,3 +23,4 @@ if has("gui_running")
     set guioptions=egmrt
 endif
 
+call pathogen#runtime_append_all_bundles() 
