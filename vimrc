@@ -7,6 +7,7 @@ set shiftwidth=2
 set autoindent
 set expandtab
 filetype plugin on
+set visualbell
 
 autocmd FileType make     set noexpandtab
 autocmd FileType python   set noexpandtab
