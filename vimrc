@@ -25,3 +25,5 @@ if has("gui_running")
 endif
 
 call pathogen#runtime_append_all_bundles() 
+
+au BufWritePost .c,.cpp,*.h silent! !ctags -R &
