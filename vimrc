@@ -18,4 +18,7 @@ color twilight
 set enc=utf-8
 set cindent
 set autoindent
+if has("gui_running")
+    set guioptions=egmrt
+endif
 
