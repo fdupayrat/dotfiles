@@ -1,3 +1,4 @@
+let mapleader = ","
 set grepprg=ack
 set grepformat=%f:%l:%m
 
@@ -11,7 +12,6 @@ set visualbell
 
 autocmd FileType make     set noexpandtab
 autocmd FileType python   set noexpandtab
-let mapleader = ","
 
 set hlsearch
 syntax on
