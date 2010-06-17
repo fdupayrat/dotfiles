@@ -13,16 +13,16 @@ autocmd FileType make     set noexpandtab
 autocmd FileType python   set noexpandtab
 
 set hlsearch
-syntax on
 color twilight
 set enc=utf-8
 set cindent
 set autoindent
 if has("gui_running")
-set nomacatsui anti enc=utf-8 termencoding=macroman gfn=Monaco:h13
+set nomacatsui anti enc=utf-8 termencoding=macroman gfn=Monaco:h14
     set guioptions=egmrt
 endif
 
-call pathogen#runtime_append_all_bundles() 
-
-au BufWritePost .c,.cpp,*.h silent! !ctags -R &
+filetype off
+call pathogen#runtime_append_all_bundles()
+syntax on
+filetype plugin indent on

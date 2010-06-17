@@ -5,8 +5,8 @@ else
 fi
 
 export EDITOR='vim'
-export PATH="/opt/local/bin/:~/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:$PATH"
-export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
+export PATH="/opt/local/bin/:~/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/opt/local/bin:$PATH"
+export MANPATH="/usr/local/man:/usr/local/mysql/man:/opt/local/man:$MANPATH"
 
 fpath=(~/.zsh/functions $fpath)
 
