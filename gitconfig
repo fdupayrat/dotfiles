@@ -1,6 +1,6 @@
 [user]
-	name = JH. Chabran
-	email = jh@chabran.fr
+	name = François Dupayrat
+	email = fdupayrat@kareea.com
 [alias]
 	co = checkout
 [color]
@@ -13,4 +13,4 @@
 [apply]
 	whitespace = nowarn
 [github]
-	user = jhchabran
+	user = fdupayrat
